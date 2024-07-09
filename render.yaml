@@ -4,4 +4,4 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn tuesdayproj.wsgi.application
-    runtime: python3.12.3
+    runtime: python3.12.4
