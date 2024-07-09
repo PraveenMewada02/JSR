@@ -3,5 +3,5 @@ services:
     name: my-django-app
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn tuesdayproj.wsgi.application
+    startCommand: gunicorn tuesdayproj.wsgi:application
     runtime: python3.12.4
